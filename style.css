@@ -28,6 +28,10 @@ header {
   font-weight: bold;
 }
 
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+
 .hero {
   text-align: center;      
   margin: 50px 0;          
@@ -38,8 +42,4 @@ header {
   color: #333;             
   font-weight: bold;
   font-family: Arial, sans-serif;
-}
-
-.nav-list li a:hover {
-  text-decoration: underline;
 }
