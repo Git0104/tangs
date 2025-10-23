@@ -2,9 +2,12 @@
 header {
   background-color: #333;
   padding: 10px 20px;
-  margin-top: 20px;       /* ページ上部との隙間 */
-  border-radius: 12px;    /* 角を丸くする */
+  margin: 20px auto 0;   /* 上は20px、左右は自動で中央寄せ */
+  border-radius: 12px;
+  width: 800px;           /* 好きな幅に調整 */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+
 
 
 .nav-list {
