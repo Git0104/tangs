@@ -10,11 +10,12 @@ header {
 
 .nav-list {
   display: flex;           /* 横並び */
-  justify-content: flex-start; /* 左寄せ */
+  justify-content: center; /* 左寄せ */
   align-items: center;     /* 高さを中央揃え */
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 40px
 }
 
 .nav-list li {
