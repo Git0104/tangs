@@ -1,24 +1,24 @@
-/* style.css */
 header {
-  background-color: #CCFFCC;
+  background-color: #333;
   padding: 10px 20px;
-  margin: 20px auto 0;   /* 上は20px、左右は自動で中央寄せ */
+  margin: 20px auto 0;
   border-radius: 12px;
-  width: 800px;           /* 好きな幅に調整 */
+  max-width: 900px;
+  width: 90%;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-
-
 .nav-list {
-  display: flex;
+  display: flex;           /* 横並び */
+  justify-content: flex-start; /* 左寄せ */
+  align-items: center;     /* 高さを中央揃え */
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .nav-list li {
-  margin-right: 20px;
+  margin-right: 20px;      /* リンク間の間隔 */
 }
 
 .nav-list li a {
