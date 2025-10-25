@@ -43,3 +43,16 @@ header {
   font-weight: bold;
   font-family: Arial, sans-serif;
 }
+
+
+.hero .subtitle {
+  font-size: 26px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.hero .description {
+  font-size: 18px;
+  color: #777;
+  margin-top: 8px;
+}
